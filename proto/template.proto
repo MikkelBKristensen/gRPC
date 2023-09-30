@@ -1,5 +1,7 @@
 syntax = "proto3";
-option go_package = "proto";
+
+option go_package = "https://github.com/MikkelBKristensen/gRPC/proto";
+
 package proto;
 
 service Template
